@@ -30,7 +30,7 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'cb6255875a-vibecode07-az'
+    azureSubscription: '16e819f5-56a4-49bc-bcf5-3ae7c502ebe0'
     appType: 'webApp'
     appName: 'AIRoadBuddy'
     package: '$(Build.ArtifactStagingDirectory)'
