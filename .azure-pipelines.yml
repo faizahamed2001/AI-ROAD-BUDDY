@@ -15,10 +15,23 @@ steps:
     npm run build
   displayName: 'Install dependencies and build'
 
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(System.DefaultWorkingDirectory)/dist'
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+  displayName: 'Copy dist folder to staging directory'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+  displayName: 'Publish build artifacts'
+
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'cb6255875a-vibecode07-az'
     appType: 'webApp'
     appName: 'AIRoadBuddy'
-    package: '$(System.DefaultWorkingDirectory)/dist'
-  displayName: 'Deploy dist folder to Azure Web App'
+    package: '$(Build.ArtifactStagingDirectory)'
+  displayName: 'Deploy to Azure Web App'
