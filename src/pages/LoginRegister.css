@@ -84,7 +84,6 @@ body {
 
 
 /* .login-bg-image::before {
->>>>>>> da62ce9 (AI Road Buddy Version 3)
   content: '';
   position: absolute;
   top: 0;
@@ -121,12 +120,6 @@ body {
   background-clip: text;
   line-height: 1.1;
   max-width: 500px;
-}
-
-.login-register-container {
-  background: linear-gradient(145deg, #ffffff, #f8fafc);
-  width: 40%;
-=======
 } */
 
 .login-register-container {
