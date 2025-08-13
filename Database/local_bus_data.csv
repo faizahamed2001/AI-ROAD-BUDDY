@@ -1,0 +1,101 @@
+Bus/Train No.,Route Name,From,To,Stop Name,ETA
+21G,Thiruvanmiyur - Broadway,Thiruvanmiyur,Broadway,Adyar,08:05
+570,Velachery - CMBT,Velachery,CMBT,Guindy,08:07
+27B,Tambaram - T. Nagar,Tambaram,T. Nagar,Chromepet,08:10
+15A,Thiruvottiyur - T. Nagar,Thiruvottiyur,T. Nagar,Washermanpet,08:12
+7H,Ambattur - Parrys,Ambattur,Parrys,Korattur,08:15
+18A,Guindy - High Court,Guindy,High Court,Mount Road,08:17
+M51R,Velachery - Egmore,Velachery,Egmore,Little Mount,08:20
+29C,Adambakkam - Broadway,Adambakkam,Broadway,Alandur,08:22
+56A,Perambur - T. Nagar,Perambur,T. Nagar,Vyasarpadi,08:25
+120,Anna Nagar - CMBT,Anna Nagar,CMBT,Shanthi Colony,08:27
+47,Thiruvanmiyur - Egmore,Thiruvanmiyur,Egmore,Indira Nagar,08:30
+88C,Velachery - Parrys,Velachery,Parrys,Guindy,08:32
+66,Tambaram - T. Nagar,Tambaram,T. Nagar,Pallavaram,08:35
+159B,Thiruvottiyur - CMBT,Thiruvottiyur,CMBT,Tondiarpet,08:37
+M88,Ambattur - Broadway,Ambattur,Broadway,Mogappair,08:40
+70,Guindy - T. Nagar,Guindy,T. Nagar,Ekkatuthangal,08:42
+91A,Velachery - High Court,Velachery,High Court,St. Thomas Mount,08:45
+M18C,Adambakkam - Egmore,Adambakkam,Egmore,Alandur,08:47
+27,Perambur - CMBT,Perambur,CMBT,Periyar Nagar,08:50
+15B,Anna Nagar - Broadway,Anna Nagar,Broadway,Thirumangalam,08:52
+21A,Thiruvanmiyur - Parrys,Thiruvanmiyur,Parrys,Adyar,08:55
+570S,Velachery - T. Nagar,Velachery,T. Nagar,Guindy,08:57
+66A,Tambaram - Egmore,Tambaram,Egmore,Sanatorium,09:00
+159A,Thiruvottiyur - High Court,Thiruvottiyur,High Court,Washermanpet,09:02
+M70,Ambattur - Egmore,Ambattur,Egmore,Thirumullaivoyal,09:05
+27D,Tambaram - Broadway,Tambaram,Broadway,Chromepet,09:07
+29B,Thiruvanmiyur - Egmore,Thiruvanmiyur,Egmore,Indira Nagar,09:10
+88A,Velachery - CMBT,Velachery,CMBT,Guindy,09:12
+15E,Thiruvottiyur - T. Nagar,Thiruvottiyur,T. Nagar,Washermanpet,09:15
+7M,Ambattur - Parrys,Ambattur,Parrys,Korattur,09:17
+18B,Guindy - High Court,Guindy,High Court,Mount Road,09:20
+M51A,Velachery - Egmore,Velachery,Egmore,Little Mount,09:22
+29D,Adambakkam - Broadway,Adambakkam,Broadway,Alandur,09:25
+56B,Perambur - T. Nagar,Perambur,T. Nagar,Vyasarpadi,09:27
+120A,Anna Nagar - CMBT,Anna Nagar,CMBT,Shanthi Colony,09:30
+47A,Thiruvanmiyur - Egmore,Thiruvanmiyur,Egmore,Indira Nagar,09:32
+88B,Velachery - Parrys,Velachery,Parrys,Guindy,09:35
+66B,Tambaram - T. Nagar,Tambaram,T. Nagar,Pallavaram,09:37
+159C,Thiruvottiyur - CMBT,Thiruvottiyur,CMBT,Tondiarpet,09:40
+M88A,Ambattur - Broadway,Ambattur,Broadway,Mogappair,09:42
+70A,Guindy - T. Nagar,Guindy,T. Nagar,Ekkatuthangal,09:45
+91B,Velachery - High Court,Velachery,High Court,St. Thomas Mount,09:47
+M18D,Adambakkam - Egmore,Adambakkam,Egmore,Alandur,09:50
+27A,Perambur - CMBT,Perambur,CMBT,Periyar Nagar,09:52
+15C,Anna Nagar - Broadway,Anna Nagar,Broadway,Thirumangalam,09:55
+21B,Thiruvanmiyur - Parrys,Thiruvanmiyur,Parrys,Adyar,09:57
+570A,Velachery - T. Nagar,Velachery,T. Nagar,Guindy,10:00
+66C,Tambaram - Egmore,Tambaram,Egmore,Sanatorium,10:02
+159D,Thiruvottiyur - High Court,Thiruvottiyur,High Court,Washermanpet,10:05
+M70A,Ambattur - Egmore,Ambattur,Egmore,Thirumullaivoyal,10:07
+27E,Tambaram - Broadway,Tambaram,Broadway,Chromepet,10:10
+29E,Thiruvanmiyur - Egmore,Thiruvanmiyur,Egmore,Indira Nagar,10:12
+88D,Velachery - CMBT,Velachery,CMBT,Guindy,10:15
+15F,Thiruvottiyur - T. Nagar,Thiruvottiyur,T. Nagar,Washermanpet,10:17
+7N,Ambattur - Parrys,Ambattur,Parrys,Korattur,10:20
+18C,Guindy - High Court,Guindy,High Court,Mount Road,10:22
+M51B,Velachery - Egmore,Velachery,Egmore,Little Mount,10:25
+29F,Adambakkam - Broadway,Adambakkam,Broadway,Alandur,10:27
+56C,Perambur - T. Nagar,Perambur,T. Nagar,Vyasarpadi,10:30
+120B,Anna Nagar - CMBT,Anna Nagar,CMBT,Shanthi Colony,10:32
+47B,Thiruvanmiyur - Egmore,Thiruvanmiyur,Egmore,Indira Nagar,10:35
+88E,Velachery - Parrys,Velachery,Parrys,Guindy,10:37
+66D,Tambaram - T. Nagar,Tambaram,T. Nagar,Pallavaram,10:40
+159E,Thiruvottiyur - CMBT,Thiruvottiyur,CMBT,Tondiarpet,10:42
+M88B,Ambattur - Broadway,Ambattur,Broadway,Mogappair,10:45
+70B,Guindy - T. Nagar,Guindy,T. Nagar,Ekkatuthangal,10:47
+91C,Velachery - High Court,Velachery,High Court,St. Thomas Mount,10:50
+M18E,Adambakkam - Egmore,Adambakkam,Egmore,Alandur,10:52
+27B,Perambur - CMBT,Perambur,CMBT,Periyar Nagar,10:55
+15D,Anna Nagar - Broadway,Anna Nagar,Broadway,Thirumangalam,10:57
+21C,Thiruvanmiyur - Parrys,Thiruvanmiyur,Parrys,Adyar,11:00
+570B,Velachery - T. Nagar,Velachery,T. Nagar,Guindy,11:02
+66D,Tambaram - Egmore,Tambaram,Egmore,Sanatorium,11:05
+159F,Thiruvottiyur - High Court,Thiruvottiyur,High Court,Washermanpet,11:07
+M70B,Ambattur - Egmore,Ambattur,Egmore,Thirumullaivoyal,11:10
+27F,Tambaram - Broadway,Tambaram,Broadway,Chromepet,11:12
+29G,Thiruvanmiyur - Egmore,Thiruvanmiyur,Egmore,Indira Nagar,11:15
+88F,Velachery - CMBT,Velachery,CMBT,Guindy,11:17
+15G,Thiruvottiyur - T. Nagar,Thiruvottiyur,T. Nagar,Washermanpet,11:20
+7P,Ambattur - Parrys,Ambattur,Parrys,Korattur,11:22
+18D,Guindy - High Court,Guindy,High Court,Mount Road,11:25
+M51C,Velachery - Egmore,Velachery,Egmore,Little Mount,11:27
+29H,Adambakkam - Broadway,Adambakkam,Broadway,Alandur,11:30
+56D,Perambur - T. Nagar,Perambur,T. Nagar,Vyasarpadi,11:32
+120C,Anna Nagar - CMBT,Anna Nagar,CMBT,Shanthi Colony,11:35
+47C,Thiruvanmiyur - Egmore,Thiruvanmiyur,Egmore,Indira Nagar,11:37
+88G,Velachery - Parrys,Velachery,Parrys,Guindy,11:40
+66E,Tambaram - T. Nagar,Tambaram,T. Nagar,Pallavaram,11:42
+159G,Thiruvottiyur - CMBT,Thiruvottiyur,CMBT,Tondiarpet,11:45
+M88C,Ambattur - Broadway,Ambattur,Broadway,Mogappair,11:47
+70C,Guindy - T. Nagar,Guindy,T. Nagar,Ekkatuthangal,11:50
+91D,Velachery - High Court,Velachery,High Court,St. Thomas Mount,11:52
+M18F,Adambakkam - Egmore,Adambakkam,Egmore,Alandur,11:55
+27C,Perambur - CMBT,Perambur,CMBT,Periyar Nagar,11:57
+15H,Anna Nagar - Broadway,Anna Nagar,Broadway,Thirumangalam,12:00
+21D,Thiruvanmiyur - Parrys,Thiruvanmiyur,Parrys,Adyar,12:02
+570C,Velachery - T. Nagar,Velachery,T. Nagar,Guindy,12:05
+66F,Tambaram - Egmore,Tambaram,Egmore,Sanatorium,12:07
+159H,Thiruvottiyur - High Court,Thiruvottiyur,High Court,Washermanpet,12:10
+M70C,Ambattur - Egmore,Ambattur,Egmore,Thirumullaivoyal,12:12

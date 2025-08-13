@@ -1,0 +1,101 @@
+Bus/Train No.,Route Name,From,To,Stop Name,ETA
+MS01,Beach - Tambaram,Chennai Beach,Tambaram,Fort,08:05
+TB02,Velachery - Chengalpattu,Velachery,Chengalpattu,Guindy,08:07
+AV03,Central - Avadi,Chennai Central,Avadi,Perambur,08:10
+VC04,Velachery - Chengalpattu,Velachery,Chengalpattu,St. Thomas Mount,08:12
+MM05,Beach - Avadi,Chennai Beach,Avadi,Vyasarpadi,08:15
+TB06,Tambaram - Beach,Tambaram,Chennai Beach,Chromepet,08:17
+VC07,Velachery - Tambaram,Velachery,Tambaram,Guindy,08:20
+AV08,Avadi - Central,Avadi,Chennai Central,Ambattur,08:22
+MS09,Beach - Tambaram,Chennai Beach,Tambaram,Park Town,08:25
+TB10,Velachery - Chengalpattu,Velachery,Chengalpattu,Meenambakkam,08:27
+AV11,Central - Avadi,Chennai Central,Avadi,Perambur Carriage Works,08:30
+VC12,Velachery - Chengalpattu,Velachery,Chengalpattu,Pallavaram,08:32
+MM13,Beach - Avadi,Chennai Beach,Avadi,Washermanpet,08:35
+TB14,Tambaram - Beach,Tambaram,Chennai Beach,Sanatorium,08:37
+VC15,Velachery - Tambaram,Velachery,Tambaram,Guindy,08:40
+AV16,Avadi - Central,Avadi,Chennai Central,Thirumullaivoyal,08:42
+MS17,Beach - Tambaram,Chennai Beach,Tambaram,Fort,08:45
+TB18,Velachery - Chengalpattu,Velachery,Chengalpattu,Guindy,08:47
+AV19,Central - Avadi,Chennai Central,Avadi,Perambur,08:50
+VC20,Velachery - Chengalpattu,Velachery,Chengalpattu,St. Thomas Mount,08:52
+MM21,Beach - Avadi,Chennai Beach,Avadi,Vyasarpadi,08:55
+TB22,Tambaram - Beach,Tambaram,Chennai Beach,Chromepet,08:57
+VC23,Velachery - Tambaram,Velachery,Tambaram,Guindy,09:00
+AV24,Avadi - Central,Avadi,Chennai Central,Ambattur,09:02
+MS25,Beach - Tambaram,Chennai Beach,Tambaram,Park Town,09:05
+41521,Beach - Velachery,Chennai Beach,Velachery,Thirumayilai,09:07
+43503,MMC - Tiruttani,Moore Market Complex,Tiruttani,Perambur,09:10
+43431,MMC - Arakkonam,Moore Market Complex,Arakkonam,Ambattur,09:12
+44002,Chengalpattu - Arakkonam,Chengalpattu,Arakkonam,Tambaram,09:15
+43506,Tiruttani - MMC,Tiruttani,Moore Market Complex,Thiruvallur,09:17
+41600,Velachery - Beach,Velachery,Chennai Beach,Guindy,09:20
+43438,Arakkonam - MMC,Arakkonam,Moore Market Complex,Avadi,09:22
+43207,MMC - Tiruvallur,Moore Market Complex,Tiruvallur,Perambur Loco Works,09:25
+43861,Ennore - Tiruvallur,Ennore,Tiruvallur,Washermanpet,09:27
+43761,Velachery - Tiruvallur,Velachery,Tiruvallur,St. Thomas Mount,09:30
+42452,Sullurupeta - Gummidipundi,Sullurupeta,Gummidipundi,Minjur,09:32
+43801,Beach - Arakkonam,Chennai Beach,Arakkonam,Vyasarpadi,09:35
+43501,MMC - Tiruttani,Moore Market Complex,Tiruttani,Perambur,09:37
+66012,Tiruvallur - MMC,Tiruvallur,Moore Market Complex,Avadi,09:40
+43401,MMC - Arakkonam Fast,Moore Market Complex,Arakkonam,Ambattur,09:42
+43001,MMC - Avadi,Moore Market Complex,Avadi,Perambur,09:45
+41001,Beach - Velachery,Chennai Beach,Velachery,Thirumayilai,09:47
+43551,Arakkonam - Tiruttani,Arakkonam,Tiruttani,Tiruvalangadu,09:50
+43803,Beach - Arakkonam,Chennai Beach,Arakkonam,Washermanpet,09:52
+43434,Arakkonam - MMC,Arakkonam,Moore Market Complex,Avadi,09:55
+43505,MMC - Tiruttani,Moore Market Complex,Tiruttani,Perambur,09:57
+44004,Chengalpattu - Arakkonam,Chengalpattu,Arakkonam,Pallavaram,10:00
+43504,Tiruttani - MMC,Tiruttani,Moore Market Complex,Thiruvallur,10:02
+41601,Velachery - Beach,Velachery,Chennai Beach,Guindy,10:05
+43402,MMC - Arakkonam,Moore Market Complex,Arakkonam,Ambattur,10:07
+44003,Arakkonam - Chengalpattu,Arakkonam,Chengalpattu,Tambaram,10:10
+43507,MMC - Tiruttani,Moore Market Complex,Tiruttani,Perambur,10:12
+43435,Arakkonam - MMC,Arakkonam,Moore Market Complex,Avadi,10:15
+43208,Tiruvallur - MMC,Tiruvallur,Moore Market Complex,Ambattur,10:17
+43862,Tiruvallur - Ennore,Tiruvallur,Ennore,Washermanpet,10:20
+43762,Tiruvallur - Velachery,Tiruvallur,Velachery,St. Thomas Mount,10:22
+42453,Gummidipundi - Sullurupeta,Gummidipundi,Sullurupeta,Minjur,10:25
+43802,Arakkonam - Beach,Arakkonam,Chennai Beach,Vyasarpadi,10:27
+43502,Tiruttani - MMC,Tiruttani,Moore Market Complex,Thiruvallur,10:30
+66013,MMC - Tiruvallur,Moore Market Complex,Tiruvallur,Avadi,10:32
+43403,Arakkonam - MMC Fast,Arakkonam,Moore Market Complex,Ambattur,10:35
+43002,Avadi - MMC,Avadi,Moore Market Complex,Perambur,10:37
+41002,Velachery - Beach,Velachery,Chennai Beach,Thirumayilai,10:40
+43552,Tiruttani - Arakkonam,Tiruttani,Arakkonam,Tiruvalangadu,10:42
+43804,Arakkonam - Beach,Arakkonam,Chennai Beach,Washermanpet,10:45
+43436,MMC - Arakkonam,Moore Market Complex,Arakkonam,Avadi,10:47
+43508,MMC - Tiruttani,Moore Market Complex,Tiruttani,Perambur,10:50
+44005,Arakkonam - Chengalpattu,Arakkonam,Chengalpattu,Pallavaram,10:52
+43509,Tiruttani - MMC,Tiruttani,Moore Market Complex,Thiruvallur,10:55
+41602,Beach - Velachery,Chennai Beach,Velachery,Guindy,10:57
+43404,MMC - Arakkonam,Moore Market Complex,Arakkonam,Ambattur,11:00
+43805,Beach - Arakkonam,Chennai Beach,Arakkonam,Vyasarpadi,11:02
+43510,MMC - Tiruttani,Moore Market Complex,Tiruttani,Perambur,11:05
+43437,Arakkonam - MMC,Arakkonam,Moore Market Complex,Avadi,11:07
+43209,Tiruvallur - MMC,Tiruvallur,Moore Market Complex,Ambattur,11:10
+43405,MMC - Arakkonam,Moore Market Complex,Arakkonam,Avadi,11:12
+43806,Beach - Arakkonam,Chennai Beach,Arakkonam,Washermanpet,11:15
+43511,MMC - Tiruttani,Moore Market Complex,Tiruttani,Perambur,11:17
+44006,Chengalpattu - Arakkonam,Chengalpattu,Arakkonam,Pallavaram,11:20
+43512,Tiruttani - MMC,Tiruttani,Moore Market Complex,Thiruvallur,11:22
+41603,Velachery - Beach,Velachery,Chennai Beach,Guindy,11:25
+43406,MMC - Arakkonam,Moore Market Complex,Arakkonam,Ambattur,11:27
+43807,Beach - Arakkonam,Chennai Beach,Arakkonam,Vyasarpadi,11:30
+43513,MMC - Tiruttani,Moore Market Complex,Tiruttani,Perambur,11:32
+44007,Arakkonam - Chengalpattu,Arakkonam,Chengalpattu,Tambaram,11:35
+43514,Tiruttani - MMC,Tiruttani,Moore Market Complex,Thiruvallur,11:37
+41604,Beach - Velachery,Chennai Beach,Velachery,Thirumayilai,11:40
+43407,MMC - Arakkonam,Moore Market Complex,Arakkonam,Avadi,11:42
+43808,Arakkonam - Beach,Arakkonam,Chennai Beach,Washermanpet,11:45
+43515,MMC - Tiruttani,Moore Market Complex,Tiruttani,Perambur,11:47
+44008,Chengalpattu - Arakkonam,Chengalpattu,Arakkonam,Pallavaram,11:50
+43516,Tiruttani - MMC,Tiruttani,Moore Market Complex,Thiruvallur,11:52
+41605,Velachery - Beach,Velachery,Chennai Beach,Guindy,11:55
+43408,MMC - Arakkonam,Moore Market Complex,Arakkonam,Ambattur,11:57
+43809,Beach - Arakkonam,Chennai Beach,Arakkonam,Vyasarpadi,12:00
+43517,MMC - Tiruttani,Moore Market Complex,Tiruttani,Perambur,12:02
+44009,Arakkonam - Chengalpattu,Arakkonam,Chengalpattu,Tambaram,12:05
+43518,Tiruttani - MMC,Tiruttani,Moore Market Complex,Thiruvallur,12:07
+41606,Beach - Velachery,Chennai Beach,Velachery,Thirumayilai,12:10
+43409,MMC - Arakkonam,Moore Market Complex,Arakkonam,Avadi,12:12

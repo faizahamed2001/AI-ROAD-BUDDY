@@ -1,0 +1,295 @@
+:root{
+  --sidebar-width: 320px;
+  --bg-grad-left: linear-gradient(90deg,#f4a261,#f5e663,#a8d5a2);
+  --primary: #4a90e2;
+  --btn-grad: linear-gradient(90deg,#0077ff,#00cc66);
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --base-font: 16px;
+}
+
+/* Base / reset */
+* { box-sizing: border-box; }
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: var(--base-font);
+  font-family: var(--font-family);
+  color: #222;
+  background: #f5f7fa;
+}
+
+/* Main layout */
+.smart-route-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden; /* keep the main viewport stable */
+}
+
+/* LEFT SIDEBAR */
+.left-panel {
+  width: var(--sidebar-width);
+  min-width: 260px;
+  padding: 24px;
+  background: var(--bg-grad-left);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;    /* inputs fill width */
+  justify-content: flex-start; /* start from top */
+  gap: 12px;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.04);
+  z-index: 20;
+  overflow-y: auto;
+}
+
+.left-panel h3 {
+  color: #2f00ff;
+  margin: 4px 0 8px 0;
+  font-size: 1.5rem; /* 24px */
+  line-height: 1.1;
+  text-align: left;
+}
+
+/* Inputs */
+.left-panel label {
+  font-size: 0.95rem;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  color: rgba(0,0,0,0.7);
+}
+.left-panel input, .left-panel .autocomplete-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  background: #fff;
+  color: black;
+  text-align: left;
+}
+
+/* Buttons */
+.left-panel .button {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 12px;
+  border-radius: 10px;
+  background: var(--btn-grad);
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.14s ease, box-shadow 0.14s ease;
+}
+.left-panel .button:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.12); }
+.left-panel .button:disabled { opacity: 0.6; cursor: not-allowed; transform: none; box-shadow: none; }
+
+/* Travel mode options */
+.travel-modes {
+  margin: 16px 0;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.travel-modes strong {
+  display: block;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.mode-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.mode-buttons label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mode-buttons label:hover {
+  background: rgba(74, 144, 226, 0.1);
+  border-color: var(--primary);
+}
+
+.mode-buttons input[type="radio"] {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* Back arrow (positioned) */
+.back-arrow {
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #be3e3e;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+  z-index: 60;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* RIGHT PANEL / MAP */
+.right-panel {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+  height: 100vh;
+  background: #fff;
+  z-index: 10;
+  overflow: hidden;
+}
+
+/* Map container should fill the right-panel */
+.map-container {
+  position: absolute;
+  inset: 0; /* top:0; right:0; bottom:0; left:0; */
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+/* Route options (right side column overlay) */
+.route-options {
+  position: absolute;
+  top: 30px;
+  right: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  z-index: 1200;
+  max-height: calc(100% - 100px);
+  width: 250px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.route-option {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #1a365d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  width: 100%;
+  min-height: fit-content;
+  align-items: stretch;
+}
+
+.route-option:hover {
+  transform: translateX(-4px);
+  border-color: var(--primary);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 4px 4px 20px rgba(74, 144, 226, 0.15);
+}
+
+.route-option.active {
+  background: linear-gradient(135deg, var(--primary), #2563eb);
+  color: white;
+  border-color: transparent;
+  box-shadow: 4px 4px 20px rgba(74, 144, 226, 0.25);
+  transform: translateX(-4px);
+}
+
+.route-option .route-number {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: inherit;
+}
+
+.route-option .route-summary {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  color: inherit;
+}
+
+.route-option .route-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  margin-top: 4px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: inherit;
+}
+
+.route-option.active .route-details {
+  border-top-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .route-options {
+    top: auto;
+    bottom: 24px;
+    right: 24px;
+    width: calc(100% - 48px);
+    max-height: 40vh;
+  }
+  
+  .route-option {
+    padding: 12px;
+  }
+}
+
+/* small helper text and tips */
+.left-panel .tips {
+  margin-top: 14px;
+  color: rgba(0,0,0,0.7);
+  font-size: 0.9rem;
+  line-height: 1.25;
+}
+
+/* Responsive tweaks */
+@media (max-width: 900px) {
+  :root { --sidebar-width: 100%; }
+  .smart-route-container { flex-direction: column; }
+  .left-panel {
+    width: 100%;
+    min-width: unset;
+    height: auto;
+    padding: 16px;
+    border-right: none;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+  }
+  .right-panel {
+    height: 60vh;
+  }
+  .map-container { position: relative; height: 100%; }
+  .back-arrow { left: 10px; top: 8px; }
+  .route-options { left: 12px; transform: none; bottom: 12px; }
+}
+
+/* small adjustments for crispness at 100% */
+input, button { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }

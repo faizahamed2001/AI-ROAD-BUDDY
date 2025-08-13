@@ -1,0 +1,226 @@
+/* Outer container */
+.carpool-outer {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Back button */
+.back-arrow {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  color: #333;
+  position: absolute;
+  top: 5rem;
+}
+
+.back-arrow:focus {
+  outline: 2px solid #0077ff;
+  outline-offset: 2px;
+}
+
+/* Main container */
+.carpool-container {
+  min-width: 100%;
+  min-height: 100%;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, #f4a261, #f5e663, #a8d5a2);
+}
+
+/* Heading */
+h2 {
+  color: rgba(87, 85, 85, 0.6);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Form inputs container */
+.carpool-inputs {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+}
+
+/* Input fields */
+.carpool-input {
+  flex: 0 0 auto;
+  padding: 6px 10px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #334155;
+  background: #fff;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-sizing: border-box;
+}
+
+.carpool-input:focus {
+  border-color: #0077ff;
+  outline: none;
+}
+
+/* Post/Request button */
+.carpool-request-btn {
+  background: #2e7d32;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.95rem;
+  padding: 6px 10px;
+  height: 38px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.carpool-request-btn:hover {
+  background: #1b5e20;
+}
+
+.carpool-request-btn:focus {
+  outline: 2px solid #0077ff;
+  outline-offset: 2px;
+}
+
+/* Horizontal scroll list */
+.carpool-list {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(270px, 1fr);
+  gap: 1.2rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: #0077ff #e0eafc;
+}
+
+/* Webkit scrollbar styling */
+.carpool-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carpool-list::-webkit-scrollbar-track {
+  background: #e0eafc;
+}
+
+.carpool-list::-webkit-scrollbar-thumb {
+  background-color: #0077ff;
+  border-radius: 4px;
+}
+
+/* User card */
+.carpool-user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f6ffed;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 1rem;
+  width: 100%;
+  max-width: 270px;
+  min-width: 270px;
+  box-sizing: border-box;
+  transition: transform 0.2s ease;
+}
+
+.carpool-user-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Avatar */
+.carpool-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.5rem;
+}
+
+/* User info */
+.carpool-user-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* Submit button */
+.carpool-submit-btn {
+  background: linear-gradient(90deg, #0077ff 60%, #00cc66 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  min-width: 120px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carpool-submit-btn:hover {
+  background: linear-gradient(90deg, #ff9900 60%, #ff3366 100%);
+}
+
+/* Input and button max sizes */
+input {
+  max-width: 400px;
+  max-height: 50px;
+}
+
+button {
+  max-width: 200px;
+  max-height: 50px;
+}
+
+/* Empty state */
+.carpool-empty {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #888;
+  margin-top: 2rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .carpool-inputs {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+
+  .carpool-list {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+    overflow-x: hidden;
+  }
+}
+
+h2{
+  color: rgba(87, 85, 85, 0.218);
+}
+
+/* .carpool-input > .seats{
+  min-width: 100px;
+  
+} */

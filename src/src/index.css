@@ -1,0 +1,81 @@
+/* Root variables and base styles */
+:root {
+  --font-stack: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-primary: #646cff;
+  --color-primary-hover: #535bf2;
+  --color-dark-bg: #242424;
+  --color-dark-text: rgba(255, 255, 255, 0.87);
+  --color-light-bg: #ffffff;
+  --color-light-text: #213547;
+  font-family: var(--font-stack);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-dark-text);
+  background-color: var(--color-dark-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Responsive body layout */
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0.5em 0;
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+a:hover {
+  color: var(--color-primary-hover);
+}
+
+/* Buttons */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: var(--color-dark-text);
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+button:hover {
+  border-color: var(--color-primary);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Light mode overrides */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--color-light-text);
+    background-color: var(--color-light-bg);
+  }
+  button {
+    background-color: #f9f9f9;
+    color: var(--color-light-text);
+  }
+  a:hover {
+    color: #747bff;
+  }
+}

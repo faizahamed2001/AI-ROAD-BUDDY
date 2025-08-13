@@ -1,0 +1,396 @@
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #232946;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Elegant, visible back arrow */
+.back-arrow {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: 2.2rem;
+  color: #3a3a5a;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(60,60,90,0.10);
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  z-index: 10;
+  transition: color 0.2s, box-shadow 0.2s;
+}
+.back-arrow:hover {
+  color: #fff;
+  background: #4a90e2;
+  box-shadow: 0 4px 16px rgba(74,144,226,0.15);
+  border: 1px solid #4a90e2;
+}
+
+/* ChatBot position override for bottom right */
+#chatbot-container, .chatbot-container {
+  position: fixed !important;
+  right: 32px !important;
+  bottom: 32px !important;
+  z-index: 1000 !important;
+  box-shadow: 0 4px 24px rgba(60,60,90,0.13);
+  border-radius: 18px;
+  background: #fff !important;
+  max-width: 350px;
+  min-width: 260px;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 600px) {
+  .back-arrow {
+    top: 12px;
+    left: 12px;
+    font-size: 1.3rem;
+    padding: 6px 8px;
+  }
+  #chatbot-container, .chatbot-container {
+    right: 8px !important;
+    bottom: 8px !important;
+    max-width: 98vw;
+    min-width: 0;
+  }
+}
+/* Modern login page styles with full-width layout */
+.login-register-bg {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+.login-bg-image {
+  width: 60%;
+  width: 75%;
+  height: 100vh;
+  background: url('/assets/jpeg (2).jfif') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* .login-bg-image::before {
+>>>>>>> da62ce9 (AI Road Buddy Version 3)
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(5, 150, 105, 0.2), rgba(29, 78, 216, 0.2));
+  backdrop-filter: blur(2px);
+} */
+
+/* .login-bg-image::after {
+  content: 'Welcome Back to MobUrb';
+  position: relative;
+  z-index: 2;
+  font-size: 3.5rem;
+  font-weight: 800;
+} */
+
+/* .login-bg-image::after {
+  content: 'Welcome Back to MobUrb';
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  position: relative;
+  z-index: 2;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, #ffffff, #e0f2fe, #bfdbfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.1;
+  max-width: 500px;
+}
+
+.login-register-container {
+  background: linear-gradient(145deg, #ffffff, #f8fafc);
+  width: 40%;
+=======
+} */
+
+.login-register-container {
+  background: linear-gradient(90deg, #f4a261, #f5e663, #a8d5a2);
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -12px 0 48px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  position: relative;
+  border-left: 1px solid rgba(59, 130, 246, 0.1);
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+.box-container{
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); 
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.box-container:hover{
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); 
+  transform: scale(1.03);
+}
+
+.login-register-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.95));
+  z-index: -1;
+}
+
+
+/* Enhanced Login/Create Account Title Style */
+.login-register-container h2 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding-bottom: 10px;
+  letter-spacing: -0.025em;
+  text-align: center;
+  background: linear-gradient(90deg, #3b82f6 30%, #16a34a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #3b82f6;
+  text-shadow: 0 2px 12px rgba(59,130,246,0.08);
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+/* Subtle hover effect for the title */
+.login-register-container h2:hover {
+  text-shadow: 0 4px 24px rgba(59,130,246,0.18);
+  color: #16a34a;
+}
+
+/* Style for Create Account link/button if present */
+.create-account-link, .create-account-text {
+  display: block;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #16a34a;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: color 0.2s;
+}
+.create-account-link:hover, .create-account-text:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.login-register-container::after {
+  /* content: 'Sign in to continue your journey'; */
+  display: block;
+  font-size: 1.1rem;
+  color: #64748b;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  max-width: 400px;
+  z-index: 1;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.1rem 1.5rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: #334155;
+  background: #ffffff;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+  margin-bottom: 0;
+}
+
+.input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  transform: translateY(-1px);
+}
+
+.input::placeholder {
+  color: #94a3b8;
+  font-weight: 400;
+}
+
+.login-btn {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8) !important;
+  color: white !important;
+  border: none !important;
+  padding: 1.1rem 12.5rem !important;
+  border-radius: 12px !important;
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.3) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 0.5rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #2563eb, #1e40af) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px 0 rgba(59, 130, 246, 0.4) !important;
+}
+
+.login-btn:disabled {
+  background: linear-gradient(135deg, #e2e8f0, #cbd5e1) !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
+  color: #64748b !important;
+}
+
+.register-btn {
+  background: transparent !important;
+  color: #3b82f6 !important;
+  border: 2px solid #3b82f6 !important;
+  padding: 1rem 2rem !important;
+  border-radius: 12px !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  margin-bottom: 0 !important;
+}
+
+.register-btn:hover {
+  background: #3b82f6 !important;
+  color: white !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px 0 rgba(59, 130, 246, 0.2) !important;
+}
+
+.input-register-btn {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
+  color: white !important;
+  border: none !important;
+  padding: 0rem 2rem !important;
+  border-radius: 12px !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.3) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  margin-top: 0.5rem !important;
+} 
+
+.input-register-btn:hover {
+  background: #3b82f6 !important;
+  color: white !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px 0 rgba(59, 130, 246, 0.2) !important;
+}
+
+.error-message {
+  color: #ef4444;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-message::before {
+  content: '⚠';
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.login-error {
+  background: linear-gradient(135deg, #fef2f2, #fee2e2);
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  color: #dc2626;
+  box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.1);
+}
+@media (max-width: 900px) {
+  .login-register-bg {
+    flex-direction: column;
+  }
+  .login-bg-image {
+    width: 100%;
+    height: 40vh;
+    border-radius: 0;
+  }
+  .login-register-container {
+    width: 100%;
+    height: 60vh;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 1.5rem;
+    margin: 0;
+  }
+}
+@media (max-width: 600px) {
+  .login-bg-image {
+    height: 30vh;
+  }
+  .login-register-container {
+    height: 70vh;
+    padding: 1rem;
+    width: 100%;
+  }
+  form {
+    gap: 0.75rem;
+    width: 100%;
+  }
+}
