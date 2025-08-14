@@ -1,0 +1,24 @@
+trigger:
+  - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '23.x'  # Use the Node.js version your project requires
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm install
+    displayName: 'Install dependencies'
+
+  - script: |
+      npm run build
+    displayName: 'Build React app'
+
+  # Optional: Run tests if you have any
+  - script: |
+      npm test -- --watchAll=false
+    displayName: 'Run tests'
